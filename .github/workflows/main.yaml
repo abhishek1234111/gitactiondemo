@@ -20,7 +20,7 @@ jobs:
 ### ⬇ IMPORTANT PART ⬇ ###
 
       - name: Login to DockerHub. # Your custom step name
-        uses: docker/login-action@v1.3.3 # GitHub action name (leave it as it is).
+        uses: docker/login-action@v2 # GitHub action name (leave it as it is).
         with:
           # Below you must provide variables for your Heroku app.
 
